@@ -26,7 +26,3 @@ form.addEventListener("submit", async (e) => {
 });
 
 
-// to: "thomashorvathweb@gmail.com",
-// subject: "Nodemailer Test",
-// text: "Hello world, this is a test email sent using Nodemailer.",
-// email: "küldő@gmail.com"
