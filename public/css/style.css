@@ -1,0 +1,8 @@
+body {
+     min-width: 300px;
+}
+
+.emailForm {
+    width: 100%;
+    max-width: 500px;
+}

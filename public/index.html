@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodemailer - levelezés</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 class="text-center mt-2">Email küldés Nodemailer-rel</h1>
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+
+        <form class="emailForm " method="post">
+            <label for="email">Email címed:</label>
+            <input type="email" id="email" name="email" required class="form-control">
+
+
+            <label for="subject">Tárgy:</label>
+            <input type="text" id="subject" name="subject" required class="form-control">
+
+            <label for="text">Üzenet:</label><br>
+            <textarea id="text" name="text" required class="form-control"></textarea>
+
+            <button type="submit" class="btn btn-warning d-block mt-5 mx-auto px-4">Email küldése</button>
+        </form>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
